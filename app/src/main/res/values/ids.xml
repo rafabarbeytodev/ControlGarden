@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <item name="tvDate" type="id" />
+    <item name="tvGroundTemp" type="id" />
+    <item name="tvLastIrrigation" type="id" />
+    <item name="tvAirTemp" type="id" />
+    <item name="tvTimeIrrigation" type="id" />
+    <item name="tvRH" type="id" />
+</resources>
