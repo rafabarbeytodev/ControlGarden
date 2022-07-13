@@ -45,6 +45,7 @@ def retrofit_version = "2.9.0"
 def gson_version = "2.9.0"
 def coroutines_version = "1.6.1"
 def room_version = "2.4.2"
+def anko_version = "0.10.8"
 
 dependencies {
 
@@ -70,6 +71,8 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
     // optional - Kotlin Extensions and Coroutines support for Room
     implementation "androidx.room:room-ktx:$room_version"
+    // Anko Commons
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
 
     //Retrofit 2: Librería encargada del consumo de las API.
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"

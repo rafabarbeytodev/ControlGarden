@@ -1,8 +1,12 @@
 package com.rafabarbeytodev.android.kotlin.controlgarden.view
 
-data class Measure(
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 
-    var id:Long = 0,
+@Entity(tableName = "MeasureEntity")
+data class MeasureEntity(
+
+    @PrimaryKey(autoGenerate = true) var id:Long = 0,
     var date:String,
     var groundTemp:String = "",
     var airTemp:String = "",
