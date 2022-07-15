@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1069426282659",
+    "project_id": "controlgarden-9a4c2",
+    "storage_bucket": "controlgarden-9a4c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069426282659:android:39b1174afccb9644756f16",
+        "android_client_info": {
+          "package_name": "com.rafabarbeytodev.android.kotlin.controlgarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069426282659-9he58g8arn7d2difpbkup8bmgrhd4rg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOOJk376QdUDCiY2tTC4za1QSxNHNszP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069426282659-9he58g8arn7d2difpbkup8bmgrhd4rg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

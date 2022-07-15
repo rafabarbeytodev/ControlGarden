@@ -2,8 +2,10 @@ package com.rafabarbeytodev.android.kotlin.controlgarden.view
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import com.google.firebase.database.IgnoreExtraProperties
 
 @Entity(tableName = "MeasureEntity")
+@IgnoreExtraProperties
 data class MeasureEntity(
 
     @PrimaryKey(autoGenerate = true) var id:Long = 0,

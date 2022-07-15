@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ControlGarden</string>
+    <string name="main_error_server">Error en la petición</string>
+    <string name="main_error_response">Error en la respuesta</string>
+    <string name="main_correct_response">Respuesta correcta del servidor</string>
 </resources>
